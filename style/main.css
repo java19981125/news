@@ -1,0 +1,218 @@
+@font-face {
+   font-family: "roboto";
+   src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+   font-family: "roboto";
+   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "roboto";
+}
+.navbar {
+   width: 100%;
+   min-height: 50px;
+   background: #fff;
+}
+.container {
+   max-width: 1110px;
+   width: 100%;
+   min-height: 40px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navbar-nav-logo img {
+   width: 150px;
+   padding: 20px 0 15px;
+}
+.navbar-nav-list {
+   list-style: none;
+   display: flex;
+}
+.navbar-nav-list a {
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: right;
+   color: #3a3838;
+   padding: 45px 15px;
+}
+.navbar-nav-list a:hover {
+   color: #ef4423;
+}
+section .container-fluid .row .col-12 img {
+   width: 100%;
+}
+section .container-fluid .row-2 {
+   display: flex;
+}
+section .container-fluid .row-2 .col-3 img {
+   width: 100%;
+   display: flex;
+}
+section .container-fluid .row-2 .col-3 .box h1 {
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 700;
+   text-align: center;
+   color: #ffffff;
+   width: 100%;
+   margin: 8px 0 auto;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+}
+section .container-fluid .row-2 .col-3 .box p {
+   font-size: 16px;
+   line-height: 19px;
+   font-weight: 400;
+   margin: 15px;
+   color: #ebebeb;
+   text-align: justify;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4;
+   overflow: hidden;
+}
+section .container-fluid .row-2 .col-3:nth-child(1) {
+   background: #b71c1c;
+}
+section .container-fluid .row-2 .col-3:nth-child(2) {
+   background: #6a1b9a;
+}
+section .container-fluid .row-2 .col-3:nth-child(3) {
+   background: #303f9f;
+}
+section .container-fluid .row-2 .col-3:nth-child(4) {
+   background: #00695c;
+}
+section .container-2 .row h1 {
+   text-align: center;
+   align-items: center;
+   padding: 40px;
+}
+section .container-2 .row .col-12 {
+   display: flex;
+   justify-content: center;
+   background: #ededed;
+}
+section .container-2 .row .col-12 .box-2 img {
+   width: 100%;
+   margin: 0 30px 0 130px;
+   display: flex;
+}
+section .container-2 .row .col-12 .box-2{
+   width: 100%;
+}
+section .container-2 .row .col-12 .box-2 h1 {
+   margin: 20px 15px 30px 0;
+   padding: 0;
+   text-align: start;
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 700;
+   color: #3a3838;
+}
+section .container-2 .row .col-12 .box-2 p {
+   padding: 0;
+   text-align: start;
+   font-size: 18px;
+   line-height: 21px;
+   font-weight: 400;
+   color: #686868;
+   text-align: justify;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 17;
+   overflow: hidden;
+}
+footer {
+   margin-top: 50px;
+}
+footer .navbar {
+   background: #3a3838;
+   min-height: 90px;
+   color: #ffffff;
+}
+footer .navbar-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+footer .navbar-nav-list a {
+   color: #ffffff;
+}
+@media (max-width: 1080px) {
+}
+@media (max-width: 1080px) {
+   .container {
+      width: 100%;
+   }
+   .navbar-nav-logo img {
+      width: 100px;
+   }
+   .navbar-nav-list a {
+      padding: 20px 5px;
+   }
+   section .container-fluid .row-2 .col-3 .box h1 {
+      width: 96%;
+      padding: 8px 0;
+   }
+   section .container-fluid .row-2 .col-3 .box p {
+      width: 90%;
+      margin: 5px auto;
+   }
+   section .container-2 .row .col-12 .box-2 img {
+      margin: 0 0 0 20px;
+      width: 100%;
+   }
+   section .container-2 .row .col-12 .box-2 h1 {
+      margin: 20px 0 30px 29px;
+   }
+   section .container-2 .row .col-12 .box-2 p {
+      margin: 0 5px 0 30px;
+   }
+}
+@media (max-width: 768px) {
+   section .container-fluid .row-2 .col-3 .box h1 {
+      font-size: 15px;
+    line-height: 17px;
+   }
+   section .container-fluid .row-2 .col-3 .box p {
+      font-size: 12px;
+    line-height: 14px;
+   }
+   section .container-2 .row .col-12 .box-2 h1{
+      font-size: 15px;
+    line-height: 17px;
+   }
+   section .container-2 .row .col-12 .box-2 p{
+      font-size: 12px;
+    line-height: 14px;
+   }
+   .navbar-nav-list a{
+      font-size: 12px;
+   }
+}
+@media (max-width: 480px) {
+   .navbar-nav-list a{
+      font-size: 9px;
+   }
+   section .container-fluid .row-2 .col-3 .box h1 {
+      font-size: 11px;
+      line-height: 12px;
+  }
+  section .container-2 .row .col-12 .box-2 h1 {
+   font-size: 15px;
+   line-height: 17px;
+}
+section .container-2 .row .col-12 .box-2 p {
+   font-size: 11px;
+   line-height: 9px;
+}
+}
